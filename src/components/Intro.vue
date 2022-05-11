@@ -5,7 +5,7 @@
         fontSize: '30px',
         fontWeight: '700',
         lineHeight: '10px'
-    }">Intoduction to <span :style="{color: 'rgb(5, 153, 5)'}">Vue.js</span> 👍</p>
+    }"><span :style="{color: 'rgb(5, 153, 5)'}">Vue.js</span> 👍 : Lesson 1</p>
 <div>Hello there</div>
 <img :src="myImg" :class="imgStyle" alt="">
     <p :class="col">{{name}}, a {{ role }}</p>

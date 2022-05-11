@@ -1,13 +1,15 @@
 <template>
 <intro />
+<lesson-two />
 </template>
 
 <script>
 import Intro from './components/Intro.vue'
+import LessonTwo from './components/lessonTwo.vue'
 
 
 export default {
-  components: { Intro },
+  components: { Intro, LessonTwo },
   name: 'App'
 }
 </script>
